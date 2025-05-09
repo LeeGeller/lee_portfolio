@@ -48,8 +48,8 @@
 
 ## 💼 Контакты
 
-- 🐙 GitHub: [https://github.com/LeeGeller](https://github.com/LeeGeller)
-- 💬 Telegram: (https://t.me/BoboBoWhisky)
+- 🐙 GitHub: [GitHub](https://github.com/LeeGeller)
+- 💬 Telegram: [Telegram](https://t.me/BoboBoWhisky)
 
 ---
 
