@@ -49,7 +49,7 @@
 ## 💼 Контакты
 
 - 🐙 GitHub: [https://github.com/LeeGeller](https://github.com/LeeGeller)
-- 💬 Telegram: [@твойник]([https://t.me/твойник](https://t.me/BoboBoWhisky))
+- 💬 Telegram: (https://t.me/BoboBoWhisky)
 
 ---
 
