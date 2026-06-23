@@ -1,61 +1,123 @@
-## 🗂️ Портфолио разработчика
+# 🗂️ Портфолио разработчика
 
-Привет! Я — Крис, начинающий backend-разработчик. Работаю с Django, FastAPI и Telegram Bot API. Ниже представлены завершённые проекты, демонстрирующие мои навыки.
+Привет! Я — Крис, Python Backend Developer.
 
----
+Занимаюсь разработкой и сопровождением backend-сервисов на Python. Имею коммерческий опыт работы с Django и PostgreSQL в крупном государственном проекте, включая разработку нового функционала, сопровождение и рефакторинг legacy-кода, оптимизацию запросов и взаимодействие с аналитиками и разработчиками.
 
-### 📌 Проекты
-
-#### 1. [📚 Django DRF — базовое CRUD API](https://github.com/LeeGeller/django_drf)
-**Описание:** Базовое API-приложение на Django REST Framework с CRUD-операциями.  
-**Стек:** Django, DRF  
-**Навыки:** сериализация, маршрутизация, представления, настройка DRF  
-📦 [`requirements.txt`](https://github.com/LeeGeller/django_drf/blob/master/requirements.txt)
+В портфолио собраны pet-проекты и учебные проекты, демонстрирующие опыт работы с Django, FastAPI, PostgreSQL, Telegram Bot API, асинхронным программированием и автоматизацией процессов.
 
 ---
 
-#### 2. [⏰ Расписание отправки сообщений (APScheduler + crontab)](https://github.com/LeeGeller/sending_message_with_appscheduler)
-**Описание:** Скрипт для отправки сообщений по расписанию через email. Использует `crontab`.  
-**Стек:** Python, crontab, 
-**Навыки:** планирование задач, работа с ботами, cron-расписания  
-📦 [`requirements.txt`](https://github.com/LeeGeller/sending_message_with_appscheduler/blob/main/requirements.txt)
+## 📌 Основные проекты
+
+### 🚀 VacancyHunter
+
+**Описание:** Система агрегации вакансий с асинхронной обработкой данных, Telegram-ботом и фоновыми задачами.
+
+**Стек:** Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Celery, Redis, Docker, Aiogram
+
+**Навыки:** проектирование backend-сервисов, интеграция внешних API, асинхронная обработка данных, очереди задач, контейнеризация.
+
+🔗 https://github.com/LeeGeller/vacancy_hunter
 
 ---
 
-#### 3. [📖 API для библиотеки](https://github.com/LeeGeller/api_for_library)
-**Описание:** Django-приложение с системой учёта книг, пользователей и выдачи.  
-**Стек:** Django, DRF  
-**Навыки:** работа с моделями, админка, аутентификация, ролевая логика  
-📦 [`requirements.txt`](https://github.com/LeeGeller/api_for_library/blob/main/requirements.txt)
+### 🚀 Neurohunter
+
+**Описание:** Проект автоматизации поиска и анализа вакансий с акцентом на backend-разработку и обработку данных.
+
+**Стек:** Python, Go, PostgreSQL
+
+**Навыки:** работа с API, обработка данных, проектирование сервисов, интеграция компонентов.
+
+🔗 https://github.com/LeeGeller/neurohunter
 
 ---
 
-#### 4. [🎯 Трекер привычек](https://github.com/LeeGeller/habit_tracker)
-**Описание:** FastAPI-приложение и Telegram-бот для формирования и отслеживания полезных привычек.  
-**Стек:** Django, SQLAlchemy, Telegram Bot API  
-**Навыки:** асинхронность, схемы Pydantic, архитектура REST  
-📦 [`requirements.txt`](https://github.com/LeeGeller/habit_tracker/blob/master/requirements.txt)
+### 📊 Асинхронный парсер вакансий
+
+**Описание:** Парсер вакансий с hh.ru и Habr Career с автоматической отправкой результатов в Telegram.
+
+**Стек:** Python, aiohttp, aiogram
+
+**Навыки:** асинхронное программирование, интеграция внешних сервисов, работа с Telegram Bot API.
+
+🔗 https://github.com/LeeGeller/parsing_vacancies
 
 ---
 
-#### 5. [🧲 Парсинг вакансий](https://github.com/LeeGeller/parsing_vacancies)
-**Описание:** Асинхронный парсер вакансий с сайтов hh.ru и Habr Career, отправляющий результаты в Telegram.  
-**Стек:** Python, aiohttp, aiogram  
-**Навыки:** асинхронный парсинг, регулярные выражения, работа с Telegram Bot API  
-📦 [`pyproject.toml`](https://github.com/LeeGeller/parsing_vacancies/blob/main/pyproject.toml)
+### 🎯 Трекер привычек
+
+**Описание:** Backend-приложение и Telegram-бот для формирования и отслеживания привычек.
+
+**Стек:** FastAPI, SQLAlchemy, PostgreSQL, Telegram Bot API
+
+**Навыки:** REST API, работа с базами данных, Pydantic, проектирование приложений.
+
+🔗 https://github.com/LeeGeller/habit_tracker
+
+---
+
+### 📖 API для библиотеки
+
+**Описание:** Сервис учёта книг, пользователей и выдачи литературы.
+
+**Стек:** Django, Django REST Framework
+
+**Навыки:** моделирование данных, аутентификация, работа с ORM, административная панель Django.
+
+🔗 https://github.com/LeeGeller/api_for_library
+
+---
+
+### 📚 Django DRF CRUD API
+
+**Описание:** Учебный проект по реализации REST API с использованием Django REST Framework.
+
+**Стек:** Django, DRF
+
+**Навыки:** сериализация данных, маршрутизация запросов, представления и работа с API.
+
+🔗 https://github.com/LeeGeller/django_drf
+
+---
+
+### ⏰ Планировщик задач
+
+**Описание:** Сервис автоматической отправки сообщений по расписанию.
+
+**Стек:** Python, APScheduler, Cron
+
+**Навыки:** планирование фоновых задач, автоматизация процессов, работа с расписаниями.
+
+🔗 https://github.com/LeeGeller/sending_message_with_appscheduler
+
+---
+
+## 🌱 Технологии
+
+| Категория                      | Технологии                                            |
+| ------------------------------ | ----------------------------------------------------- |
+| 🐍 **Backend**                 | Python, Django, Django REST Framework, FastAPI, Flask |
+| 🗄️ **Базы данных**            | PostgreSQL, SQLite, SQLAlchemy, Alembic               |
+| 🛠️ **Инструменты разработки** | Git, Linux, Docker, Redis, Celery, pytest             |
+| 🔐 **API и безопасность**      | REST API, JWT Authentication                          |
+| ⚙️ **Автоматизация и CI/CD**   | GitHub Actions                                        |
+| 🚀 **Изучаю**                  | Go                                                    |
+
+---
+
+## 🔧 Сейчас развиваюсь в направлениях
+
+* Go и конкурентное программирование
+* PostgreSQL и оптимизация запросов
+* Асинхронные и распределённые системы
+* Архитектура backend-приложений
+* AI-инструменты и автоматизация процессов
 
 ---
 
 ## 💼 Контакты
 
-- 🐙 GitHub: [GitHub](https://github.com/LeeGeller)
-- 💬 Telegram: [Telegram](https://t.me/BoboBoWhisky)
-
----
-
-## 🔧 Сейчас изучаю
-
-- FastAPI и асинхронное программирование
-- Telegram-боты с aiogram
-- Работа с Google Calendar API
-- Архитектура AI-агентов
+* GitHub: https://github.com/LeeGeller
+* Telegram: https://t.me/BoboBoWhisky
